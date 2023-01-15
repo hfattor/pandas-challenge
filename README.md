@@ -31,16 +31,16 @@ This brief summary dataframe lists the following information:
 <h1>School Summary</h1>
 This dataframe summarizes information about each high school in the dataset. It lists the following information:
   <ul>
-    <li>- The name of the high school</li>
-    <li>- The type of school (district or charter)</li>
-    <li>- The total number of the students at the school</li>
-    <li>- The total budget for the school</li>
-    <li>- The total budget alloted for each student (total students/total school budget)</li>
-    <li>- The average math score of students at the school</li>
-    <li>- The average reading score of students at the school</li>
-    <li>- The percent of students at the school who are passing math (have a score >= 70 in math)</li>
-    <li>- The percent of students at the school who are passing reading (have a score >= 70 in reading)</li>
-    <li>- Percentage of students at the school who are passing both math and reading (have a score >= 70)</li>
+    <li>The name of the high school</li>
+    <li>The type of school (district or charter)</li>
+    <li>The total number of the students at the school</li>
+    <li>The total budget for the school</li>
+    <li>The total budget alloted for each student (total students/total school budget)</li>
+    <li>The average math score of students at the school</li>
+    <li>The average reading score of students at the school</li>
+    <li>The percent of students at the school who are passing math (have a score >= 70 in math)</li>
+    <li>The percent of students at the school who are passing reading (have a score >= 70 in reading)</li>
+    <li>Percentage of students at the school who are passing both math and reading (have a score >= 70)</li>
    </ul>
 
 <h1>Highest-Performing Schools by Percentage of Overall Passing</h1>
@@ -52,14 +52,14 @@ This dataframe sorts the information above (in 'School Summary') by the 5 school
 <h1>Math Scores by Grade</h1>
 This dataframe summarizes math score information about each high school in the dataset. It lists the following information:
   <ul>
-    <li>- The name of the high school</li>
-    <li>- The average math score for 9th grade students at the school</li>
-    <li>- The average math score for 10th grade students at the school</li>
-    <li>- The average math score for 11th grade students at the school</li>
-    <li>- The average math score for 12th grade students at the school</li>
+    <li>The name of the high school</li>
+    <li>The average math score for 9th grade students at the school</li>
+    <li>The average math score for 10th grade students at the school</li>
+    <li>The average math score for 11th grade students at the school</li>
+    <li>The average math score for 12th grade students at the school</li>
    </ul>
-
-<h1>Reading Scores by Grade</h1>
+   
+   <h1>Reading Scores by Grade</h1>
 <p>This dataframe summarizes reading score information about each high school in the dataset. It lists the following information:</p>
   <ul>
     <li>The name of the high school</li>
@@ -72,32 +72,32 @@ This dataframe summarizes math score information about each high school in the d
 <h1>Scores by School Spending</h1>
 This dataframe summarizes the relationship between high school budget spending per student and test scores in math and reading. It lists the following information:
   <ul>
-    <li>- Four spending ranges in USD of the total budget alloted for each student (total students/total school budget)</li>
-    <li>- The average math score for students who attended schools that allotted funding to each student in a specific range</li>
-    <li>- The average reading score for students who attended schools that allotted funding to each student in a specific range</li>
-    <li>- The percent of students passing math (scoring >= 70 in math) who attended schools that allotted funding to each student in a specific range</li>
-    <li>- The percent of students passing reading (scoring >= 70 in reading) who attended schools that allotted funding to each student in a specific range</li>
-    <li>- The percent of students passing both math and reading (scoring >= 70 in both subjects) who attended schools that allotted funding to each student in a specific range</li>
+    <li>Four spending ranges in USD of the total budget alloted for each student (total students/total school budget)</li>
+    <li>The average math score for students who attended schools that allotted funding to each student in a specific range</li>
+    <li>The average reading score for students who attended schools that allotted funding to each student in a specific range</li>
+    <li>The percent of students passing math (scoring >= 70 in math) who attended schools that allotted funding to each student in a specific range</li>
+    <li>The percent of students passing reading (scoring >= 70 in reading) who attended schools that allotted funding to each student in a specific range</li>
+    <li>The percent of students passing both math and reading (scoring >= 70 in both subjects) who attended schools that allotted funding to each student in a specific range</li>
    </ul>
 
 <h1>Scores by School Size</h1>
 This dataframe summarizes the relationship between the size of a high school and student test scores in math and reading. It lists the following information:
   <ul>
-    <li>- Three size ranges (Small, Medium, and Large) based on the number of students enrolled at a high school</li>
-    <li>- The average math score for students who attended schools of each size</li>
-    <li>- The average reading score for students who attended schools of each size</li>
-    <li>- The percent of students passing math (scoring >= 70 in math) who attended schools of each size</li>
-    <li>- The percent of students passing reading (scoring >= 70 in reading) who attended schools of each size</li>
-    <li>- The percent of students passing both math and reading (scoring >= 70 in both subjects) who attended schools of each size</li>
+    <li>Three size ranges (Small, Medium, and Large) based on the number of students enrolled at a high school</li>
+    <li>The average math score for students who attended schools of each size</li>
+    <li>The average reading score for students who attended schools of each size</li>
+    <li>The percent of students passing math (scoring >= 70 in math) who attended schools of each size</li>
+    <li>The percent of students passing reading (scoring >= 70 in reading) who attended schools of each size</li>
+    <li>The percent of students passing both math and reading (scoring >= 70 in both subjects) who attended schools of each size</li>
    </ul>
-
+   
 <h1>Scores by School Type</h1>
 This dataframe summarizes the relationship between the type of high school (district or charter) and student test scores in math and reading. It lists the following information:
   <ul>
-    <li>- The type of school (district or charter)</li>
-    <li>- The average math score for students who attended schools of each type</li>
-    <li>- The average reading score for students who attended schools of each type</li>
-    <li>- The percent of students passing math (scoring >= 70 in math) who attended schools of each type</li>
-    <li>- The percent of students passing reading (scoring >= 70 in reading) who attended schools of each type</li>
-    <li>- The percent of students passing both math and reading (scoring >= 70 in both subjects) who attended schools of each type</li>
+    <li>The type of school (district or charter)</li>
+    <li>The average math score for students who attended schools of each type</li>
+    <li>The average reading score for students who attended schools of each type</li>
+    <li>The percent of students passing math (scoring >= 70 in math) who attended schools of each type</li>
+    <li>The percent of students passing reading (scoring >= 70 in reading) who attended schools of each type</li>
+    <li>The percent of students passing both math and reading (scoring >= 70 in both subjects) who attended schools of each type</li>
    </ul>
